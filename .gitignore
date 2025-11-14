@@ -1,0 +1,11 @@
+# APK decompilation artifacts
+*.apk
+apktool_output/
+jadx_output/
+
+# Build artifacts
+build/
+.gradle/
+*.iml
+.idea/
+local.properties
