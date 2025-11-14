@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/item_height_big"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon_app" android:layout_width="@dimen/item_height" android:layout_height="@dimen/item_height" android:contentDescription="@string/content_desc_application_icon" android:layout_marginStart="@dimen/margin_horizontal_default" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.google.android.material.textview.MaterialTextView android:gravity="center_vertical" android:id="@id/text_app" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginStart="@dimen/margin_horizontal_default" android:layout_marginEnd="@dimen/margin_horizontal_default" app:drawableEndCompat="@drawable/ic_chevron_right" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/icon_app" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearance.Material3.BodyLarge" />
+</androidx.constraintlayout.widget.ConstraintLayout>

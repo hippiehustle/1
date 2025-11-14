@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_cancel" android:id="@id/action_cancel" android:visible="false" android:title="@string/menu_item_title_cancel" app:showAsAction="ifRoom|collapseActionView" />
+    <item android:icon="@drawable/ic_select_all" android:id="@id/action_select_all" android:visible="false" android:title="@string/menu_item_title_select_all" app:showAsAction="ifRoom|collapseActionView" />
+    <item android:icon="@drawable/ic_menu_save" android:id="@id/action_export" android:title="@string/menu_item_title_export" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_load" android:id="@id/action_import" android:title="@string/menu_item_title_import" app:showAsAction="always" />
+    <item android:icon="@drawable/abc_ic_search_api_material" android:id="@id/action_search" android:title="@string/menu_item_title_search" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="always|collapseActionView" />
+    <item android:icon="@drawable/ic_settings_filled" android:id="@id/action_settings" android:title="@string/menu_item_title_settings" app:showAsAction="always" />
+</menu>

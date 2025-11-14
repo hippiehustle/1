@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_vertical_large" android:layout_marginBottom="@dimen/margin_vertical_extra_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_horizontal_default" android:layout_marginRight="@dimen/margin_horizontal_default" android:layout_marginHorizontal="@dimen/margin_horizontal_default">
+        <include android:id="@id/field_event_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_horizontal_small" layout="@layout/include_field_text_input" />
+        <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_vertical_large" style="@style/AppTheme.Widget.Card">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_horizontal_default" android:layout_marginTop="@dimen/margin_vertical_default" android:layout_marginRight="@dimen/margin_horizontal_default" android:layout_marginBottom="@dimen/margin_vertical_default" android:layout_marginHorizontal="@dimen/margin_horizontal_default" android:layout_marginVertical="@dimen/margin_vertical_default">
+                <include android:id="@id/field_condition_operator" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/include_field_dual_state_text" />
+                <com.google.android.material.divider.MaterialDivider android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/AppTheme.Widget.Divider.Horizontal" />
+                <include android:id="@id/field_is_enabled" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/include_field_switch" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView android:id="@id/card_test_event" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_vertical_large" android:minHeight="@dimen/item_height" style="@style/AppTheme.Widget.Card">
+            <include android:layout_gravity="center" android:id="@id/field_test_event" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_horizontal_default" android:layout_marginTop="@dimen/margin_vertical_default" android:layout_marginRight="@dimen/margin_horizontal_default" android:layout_marginBottom="@dimen/margin_vertical_default" android:layout_marginHorizontal="@dimen/margin_horizontal_default" android:layout_marginVertical="@dimen/margin_vertical_default" layout="@layout/include_field_selector" />
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

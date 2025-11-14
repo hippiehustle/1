@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_capital_off">NON</string>
+    <string name="abc_capital_on">OUI</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">supprimer</string>
+    <string name="abc_menu_enter_shortcut_label">entrée</string>
+    <string name="abc_menu_function_shortcut_label">Fonction+</string>
+    <string name="abc_menu_meta_shortcut_label">Méta+</string>
+    <string name="abc_menu_shift_shortcut_label">Maj+</string>
+    <string name="abc_menu_space_shortcut_label">espace</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Rechercher…</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="accessibility_service_description">"Cette application à besoin de ce service pour injecter les clics que vous avez créé dans les autres applications une fois que les conditions ont été détectées.
+
+Aucune donnée n'est collectée par cette application. Nhésitez pas à visiter notre GitHub, le projet est open source !"</string>
+    <string name="activity_scenario_title">Scénarios</string>
+    <string name="activity_settings_title">Paramètres</string>
+    <string name="activity_tutorial_name">Tutoriel</string>
+    <string name="bottomsheet_action_collapse">Réduire la bottom sheet</string>
+    <string name="bottomsheet_action_expand">Développer la bottom sheet</string>
+    <string name="bottomsheet_action_expand_halfway">Développer en entier</string>
+    <string name="bottomsheet_drag_handle_clicked">A appuyé deux fois sur la poignée de déplacement</string>
+    <string name="bottomsheet_drag_handle_content_description">Poignée de déplacement</string>
+    <string name="brief_empty_actions">"Aucune Action. Vous avez besoin d'au moins une Action valide pour créer un évènement"</string>
+    <string name="brief_empty_image_conditions">"Aucune condition d'écran. Vous avez besoin d'au moins une Condition valide pour créer un évènement"</string>
+    <string name="button_condition_migration_finished">OK</string>
+    <string name="button_condition_migration_running">Migration</string>
+    <string name="button_condition_migration_start">Migrer</string>
+    <string name="button_deny">Refuser</string>
+    <string name="button_notification_config">Ouvrir les paramètres</string>
+    <string name="button_request_permission">Requête de permission</string>
+    <string name="button_text_create_scenario">Créer un scénario</string>
+    <string name="button_text_tutorial_next">Suivant</string>
+    <string name="button_text_tutorial_start_game">Démarrer le jeu</string>
+    <string name="button_understood">Compris</string>
+    <string name="character_counter_content_description">Caractères saisis %1$d sur %2$d</string>
+    <string name="character_counter_overflowed_content_description">Nombre maximal de caractères dépassé : %1$d sur %2$d</string>
+    <string name="clear_text_end_icon_content_description">Effacer le texte</string>
+    <string name="content_desc_action_icon">"L'icone du type de l'action."</string>
+    <string name="content_desc_actions_count">"Le nombre d'actions dans cet évènement"</string>
+    <string name="content_desc_add_action">Ajouter une nouvelle action au scénario</string>
+    <string name="content_desc_add_button">Le button pour créer un élément</string>
+    <string name="content_desc_add_scenario">Créer un nouveau scénario</string>
+    <string name="content_desc_application_icon">"L'icone de l'application à lancer."</string>
+    <string name="content_desc_backup_state">"L'état du backup"</string>
+    <string name="content_desc_conditions_count">Le nombre de conditions dans cet évènement</string>
+    <string name="content_desc_confirm">Confirmer</string>
+    <string name="content_desc_copy_button">"Le button pour créer une copie à partir d'un élément existant"</string>
+    <string name="content_desc_drag_and_drop">"Drag and drop pour changer l'ordre des éléments"</string>
+    <string name="content_desc_event_state">"L'état de l'évènement"</string>
+    <string name="content_desc_go_back">Retour au dialog</string>
+    <string name="content_desc_image_condition">"L'image qui doit être détectée"</string>
+    <string name="content_desc_move_menu">Déplacer le menu flottant</string>
+    <string name="content_desc_open_action_list">Ouvrir la liste des actions</string>
+    <string name="content_desc_open_event_list">Ouvrir la liste des évènements</string>
+    <string name="content_desc_play_pause_scenario">Jouer ou arrêter le scenario</string>
+    <string name="content_desc_show_actions">Afficher ou cacher les actions</string>
+    <string name="content_desc_stop_clicker">"Quitter Klick'r"</string>
+    <string name="default_change_counter_name">Changer compteur</string>
+    <string name="default_click_name">Clic</string>
+    <string name="default_condition_name">Condition</string>
+    <string name="default_event_name">Evènement par défaut</string>
+    <string name="default_intent_name">Intent</string>
+    <string name="default_notification_name">Notification</string>
+    <string name="default_pause_name">Pause</string>
+    <string name="default_scenario_name">Nom par défaut</string>
+    <string name="default_set_text_name">Écrire du texte</string>
+    <string name="default_swipe_name">Swipe</string>
+    <string name="default_system_action_name">Action du système</string>
+    <string name="default_toggle_event_name">Changer évènement</string>
+    <string name="dialog_condition_migration_title">Migration</string>
+    <string name="dialog_move_to_position_label">Index</string>
+    <string name="dialog_move_to_title">Déplacer vers</string>
+    <string name="dialog_overlay_title_copy_from">Copier depuis</string>
+    <string name="dialog_overlay_title_debug_report">Rapport de debug</string>
+    <string name="dialog_overlay_title_dumb_action_type">"Type d'action"</string>
+    <string name="dialog_overlay_title_dumb_scenario_config">Scénario</string>
+    <string name="dialog_overlay_title_warning">Avertissement</string>
+    <string name="dialog_title_action_type">"Type d'action"</string>
+    <string name="dialog_title_add_scenario">Nouveau scénario</string>
+    <string name="dialog_title_application_selection">Choisir une application</string>
+    <string name="dialog_title_broadcast_received">Broadcast reçu</string>
+    <string name="dialog_title_change_counter">Changer compteur</string>
+    <string name="dialog_title_click">Clic</string>
+    <string name="dialog_title_condition_config">Condition</string>
+    <string name="dialog_title_condition_selection">Choisir une condition</string>
+    <string name="dialog_title_copy_scenario">Copier scénario</string>
+    <string name="dialog_title_counter_reached">Valeur du compteur</string>
+    <string name="dialog_title_create_backup">Créer une sauvegarde</string>
+    <string name="dialog_title_delete_scenario">Supprimer le scénario</string>
+    <string name="dialog_title_events_toggle">"Changements d'états"</string>
+    <string name="dialog_title_image_event">"Évènement d'écran"</string>
+    <string name="dialog_title_import_backup">Importer une sauvegarde</string>
+    <string name="dialog_title_notification">Notification</string>
+    <string name="dialog_title_pause">Pause</string>
+    <string name="dialog_title_permission_accessibility">"Service d'accessibilité"</string>
+    <string name="dialog_title_permission_issue">Dépannage</string>
+    <string name="dialog_title_permission_mandatory_denied">Permission refusée</string>
+    <string name="dialog_title_permission_notification">Notification</string>
+    <string name="dialog_title_permission_overlay">Superposition</string>
+    <string name="dialog_title_scenario_config">Scénario</string>
+    <string name="dialog_title_set_text_action">Écrire du texte</string>
+    <string name="dialog_title_swipe">Swipe</string>
+    <string name="dialog_title_system_action">Action du système</string>
+    <string name="dialog_title_timer_reached">Timer atteint</string>
+    <string name="dialog_title_toggle_event">"État d'évènement"</string>
+    <string name="dialog_title_trigger_condition_type">Type de déclencheur</string>
+    <string name="dialog_title_trigger_event">Déclencheur</string>
+    <string name="dialog_title_tutorial">Tutoriel</string>
+    <string name="dropdown_comparison_operator_label">Opérateur</string>
+    <string name="dropdown_counter_operation_label">Opération</string>
+    <string name="dropdown_helper_text_anti_detection_disabled">Exécute les actions comme elles sont déclarées</string>
+    <string name="dropdown_helper_text_anti_detection_enabled">Ajoute une petite part de hasard dans les positions et durées des clics, swipes et pauses</string>
+    <string name="dropdown_intent_extra_type_title">Type de la valeur</string>
+    <string name="dropdown_intent_sending_type_label">Type</string>
+    <string name="dropdown_item_title_anti_detection_disabled">Désactivé</string>
+    <string name="dropdown_item_title_anti_detection_enabled">Activé</string>
+    <string name="dropdown_label_time_unit">Unité de temps</string>
+    <string name="dropdown_label_time_unit_h">h</string>
+    <string name="dropdown_label_time_unit_min">min</string>
+    <string name="dropdown_label_time_unit_ms">ms</string>
+    <string name="dropdown_label_time_unit_s">s</string>
+    <string name="error_a11y_label">Erreur : Non valide</string>
+    <string name="error_dialog_message_error_native_lib">"Klick'r est mal installé et ne peut pas démarrer la détection.
+
+Si vous l'avez installé à partir d'une boutique d'applications légitime, veuillez nous contacter sur GitHub, car cela nous aidera à résoudre ce problème."</string>
+    <string name="error_dialog_message_scenario_saving">"Votre scenario ne peux pas être enregistré à cause d'une erreur interne.
+Voulez vous le modifier ou annuler vos modifications ?"</string>
+    <string name="error_icon_content_description">Erreur</string>
+    <string name="exposed_dropdown_menu_content_description">Afficher le menu déroulant</string>
+    <string name="field_application_selection_desc">Démarrer une application lorsque cette action est exécutée</string>
+    <string name="field_application_selection_title">Choisir une application</string>
+    <string name="field_change_all_desc_disable_all">"Désactiver tous les évènements de ce scénario. Quand tous les évènements sont désactivés, le scénario s'arrête automatiquement"</string>
+    <string name="field_change_all_desc_enable_all">Activer tous les évènements de ce scénario</string>
+    <string name="field_change_all_desc_invert_all">"Inverser l'état de tout les évènements de ce scénario"</string>
+    <string name="field_change_all_desc_manual">Choisissez manuellement les évènements à changer</string>
+    <string name="field_change_all_title">Changer tous</string>
+    <string name="field_click_offset_desc_none">Aucun</string>
+    <string name="field_click_offset_title">Décalage du clic</string>
+    <string name="field_click_position_desc">Clic simple sur %1$d, %2$d</string>
+    <string name="field_click_position_title">Position du clic</string>
+    <string name="field_click_type_desc_on_condition">Cliquer sur la condition détectée</string>
+    <string name="field_click_type_desc_on_position">Cliquer sur la position selectionnée</string>
+    <string name="field_click_type_title">Cliquer sur</string>
+    <string name="field_condition_selection_desc_and_operator">%1$s</string>
+    <string name="field_condition_selection_desc_and_operator_not_found">Pas de condition sélectionnée</string>
+    <string name="field_condition_selection_desc_or_operator">"L'évènement est défini sur Une condition, vous ne pouvez pas en spécifier une"</string>
+    <string name="field_condition_selection_title_and_operator">Cliquer sur une condition</string>
+    <string name="field_condition_selection_title_or_operator">Cliquer sur la première condition détectée</string>
+    <string name="field_condition_selector_desc">%1$d conditions</string>
+    <string name="field_condition_visibility_desc_absent">La condition ne doit pas être détectée</string>
+    <string name="field_condition_visibility_desc_present">La condition doit être détectée</string>
+    <string name="field_condition_visibility_title">Visibilité</string>
+    <string name="field_counter_comparison_value_label">Valeur</string>
+    <string name="field_counter_name_label">Nom du compteur</string>
+    <string name="field_counter_operation_value_label">Valeur</string>
+    <string name="field_detection_type_desc_area">Détection sur une zone sélectionnée</string>
+    <string name="field_detection_type_desc_exact">Détection à la position de capture</string>
+    <string name="field_detection_type_desc_screen">"Détection sur tout l'écran"</string>
+    <string name="field_detection_type_title">Type de détection</string>
+    <string name="field_dropdown_item_notification_importance_type_default">Normale</string>
+    <string name="field_dropdown_item_notification_importance_type_default_desc">Fait du son.</string>
+    <string name="field_dropdown_item_notification_importance_type_high">Haute</string>
+    <string name="field_dropdown_item_notification_importance_type_high_desc">"Fait du son et apparaît sur l'écran."</string>
+    <string name="field_dropdown_item_notification_importance_type_low">Basse</string>
+    <string name="field_dropdown_item_notification_importance_type_low_desc">Ne fait pas de son.</string>
+    <string name="field_dropdown_item_notification_message_type_counter">Compteur</string>
+    <string name="field_dropdown_item_notification_message_type_text">Texte</string>
+    <string name="field_dropdown_notification_importance_title">Importance</string>
+    <string name="field_dropdown_notification_message_type_title">Type</string>
+    <string name="field_dropdown_system_action_type_back">Retour</string>
+    <string name="field_dropdown_system_action_type_home">Accueil</string>
+    <string name="field_dropdown_system_action_type_recent_apps">Applications récentes</string>
+    <string name="field_dropdown_system_action_type_title">Type</string>
+    <string name="field_event_keep_detecting_desc_disabled">"Quand cet évènement est déclenché, recommencer l'éxécution depuis le premier évènement dans la liste"</string>
+    <string name="field_event_keep_detecting_desc_enabled">"Quand cet évènement est déclenché, continuer l'éxécution depuis l'évènement suivant dans la liste"</string>
+    <string name="field_event_keep_detecting_title">"Continuer l'éxécution"</string>
+    <string name="field_event_state_desc_disabled">Cet évènement doit être activé par une action pour être interprété quand le scénario sera joué</string>
+    <string name="field_event_state_desc_enabled">Cet évènement sera interprété normalement quand le scénario sera joué</string>
+    <string name="field_event_state_title">État</string>
+    <string name="field_force_entire_screen_desc">"Forcer le selecteur de la popup de capture d'écran sur \"Tout l'écran\". Peut ne pas fonctionner en fonction de votre appareil."</string>
+    <string name="field_force_entire_screen_title">"Forcer tout l'écran"</string>
+    <string name="field_input_block_workaround_desc">"Sur les appareils Pixel équipés d'Android 15, l'utilisation d'un auto cliqueur peut bloquer l'écran tactile.
+Pour le débloquer, vous devez toucher l'écran avec plusieurs doigts en même temps. Ce paramètre tente de simuler cela toutes les 10 secondes."</string>
+    <string name="field_input_block_workaround_title">"Débloquer l'écran tactile"</string>
+    <string name="field_input_set_text_text_to_write_title">Texte</string>
+    <string name="field_intent_extra_key_label">Clé</string>
+    <string name="field_intent_extra_value_title">Valeur</string>
+    <string name="field_legacy_action_ui_desc">"Modifie l'affichage de l'action par une liste. Utile pour les scénarios complexes."</string>
+    <string name="field_legacy_action_ui_title">Legacy Action UI</string>
+    <string name="field_legacy_notification_ui_desc">"Utiliser les boutons du système au lieu des boutons d'icône dans la notification."</string>
+    <string name="field_legacy_notification_ui_title">Legacy Notification UI</string>
+    <string name="field_notification_message_counter_label">Nom du Compteur</string>
+    <string name="field_notification_message_text_label">Contenu</string>
+    <string name="field_notification_message_title">Message</string>
+    <string name="field_notification_title_label">Titre</string>
+    <string name="field_operator_desc_and">Toutes les conditions doivent être remplies pour déclencher les actions</string>
+    <string name="field_operator_desc_or">Une seule des conditions doit être remplie pour déclencher les actions</string>
+    <string name="field_operator_title">Conditions</string>
+    <string name="field_privacy">Paramètres de confidentialité</string>
+    <string name="field_remove_ads">Supprimer les publicités</string>
+    <string name="field_scenario_keep_screen_on_disabled">"Utiliser le comportement normal de l'écran de l'appareil."</string>
+    <string name="field_scenario_keep_screen_on_enabled">"L'écran de votre appareil restera allumé pendant la détéction."</string>
+    <string name="field_scenario_keep_screen_on_title">"Garder l'écran allumé"</string>
+    <string name="field_scenario_quality_description">"Pour accélérer la détection, Klick'r réduit la résolution des images avant de procéder à la détection.
+
+Si vous augmentez la résolution, la détection sera plus lente, mais plus précise. Si vous diminuez la résolution, la détection sera plus rapide, mais moins précise. Trouvez le bon rapport entre la résolution de détection et les seuils de conditions pour tirer le meilleur parti de vos scénarios !"</string>
+    <string name="field_scenario_quality_title">Résolution de détection</string>
+    <string name="field_select_detection_area_desc">Dans [%1$d, %2$d] [%3$d, %4$d]</string>
+    <string name="field_select_detection_area_title">Zone de détection</string>
+    <string name="field_select_toggle_events_desc_empty">Selectionnez au moins un évènement</string>
+    <string name="field_select_toggle_events_title">%1$d changements</string>
+    <string name="field_select_toggle_events_title_empty">Aucun changement</string>
+    <string name="field_set_text_validate_desc_disabled">Écrire simplement le texte</string>
+    <string name="field_set_text_validate_desc_enabled">Appuyer sur Entrée après avoir saisi le texte.</string>
+    <string name="field_set_text_validate_title">Valider le texte</string>
+    <string name="field_show_debug_report_desc_available">Un rapport est disponible</string>
+    <string name="field_show_debug_report_desc_not_available">Aucun rapport de debug disponible</string>
+    <string name="field_show_debug_report_title">Afficher le rapport</string>
+    <string name="field_show_debug_view_title">Overlay de débug</string>
+    <string name="field_show_scenario_filters_ui_desc">"Afficher ou cacher les filtres sur l'écran des Scénarios."</string>
+    <string name="field_show_scenario_filters_ui_title">Afficher les filtres</string>
+    <string name="field_swipe_positions_desc">Swiper de %1$d, %2$d à %3$d, %4$d</string>
+    <string name="field_swipe_positions_title">Positions de swipe</string>
+    <string name="field_timer_restart_desc_off">"Une fois atteinte, le timer ne sera pas redémarré, ce qui signifie que cette condition ne peut être remplie qu'une seule fois."</string>
+    <string name="field_timer_restart_desc_on">"Une fois atteinte, le timer redémarre, permettant à cette condition d'être à nouveau remplie."</string>
+    <string name="field_timer_restart_title">Relancer quand atteint</string>
+    <string name="field_title_condition_threshold">Différence tolérée</string>
+    <string name="field_troubleshooting">Dépannage</string>
+    <string name="field_tutorial_desc">"Apprenez à utiliser Klick'r"</string>
+    <string name="field_tutorial_title">Tutoriel</string>
+    <string name="generic_config">Configuration</string>
+    <string name="generic_counters">Compteurs</string>
+    <string name="generic_modify">Modifier</string>
+    <string name="generic_name">Nom</string>
+    <string name="generic_select_the_position">Choisir une position</string>
+    <string name="icon_content_description">Icône de la boîte de dialogue</string>
+    <string name="input_field_error_required">Requis</string>
+    <string name="input_field_label_anti_detection">Anti détection</string>
+    <string name="input_field_label_click_press_duration">"Durée d'appui (ms)"</string>
+    <string name="input_field_label_maximum_duration">Durée maximum (minutes)</string>
+    <string name="input_field_label_name">Nom</string>
+    <string name="input_field_label_pause_duration">Durée de la pause</string>
+    <string name="input_field_label_repeat_count">Répétitions</string>
+    <string name="input_field_label_repeat_delay">Délay entre répétitions (ms)</string>
+    <string name="input_field_label_scenario_name">Nom du scénario</string>
+    <string name="input_field_label_swipe_duration">Durée du swipe (ms)</string>
+    <string name="input_field_label_timer_duration_no_unit">Après</string>
+    <string name="item_broadcast_received_desc">Remplie quand un Broadcast est reçu</string>
+    <string name="item_broadcast_received_details">%1$s reçu</string>
+    <string name="item_broadcast_received_title">Broadcast reçu</string>
+    <string name="item_change_counter_desc">Modifier une valeur pour la vérifier plus tard</string>
+    <string name="item_change_counter_details">%1$s %2$s %3$s</string>
+    <string name="item_change_counter_details_error">Le compteur est invalid</string>
+    <string name="item_change_counter_title">Modifier compteur</string>
+    <string name="item_click_desc">"Cliquer sur l'écran"</string>
+    <string name="item_click_details_at_position">Pendant %1$s</string>
+    <string name="item_click_details_on_condition">Pendant %1$s sur %2$s</string>
+    <string name="item_click_title">Clic</string>
+    <string name="item_copy_desc">"Copier une Action existante depuis n'importe quel Scenario"</string>
+    <string name="item_copy_title">Copie</string>
+    <string name="item_counter_reached_desc">"Vérifie la valeur d'un compteur modifié par une Action"</string>
+    <string name="item_counter_reached_details">%1$s %2$s %3$s</string>
+    <string name="item_counter_reached_title">Compteur atteint</string>
+    <string name="item_desc_dumb_action_copy">"Copier une Action existante depuis n'importe quel Scenario"</string>
+    <string name="item_desc_dumb_action_duration">Pendant %1$s</string>
+    <string name="item_desc_dumb_click">"Clic quelque part sur l'écran"</string>
+    <string name="item_desc_dumb_click_details">Pendant %1$s sur [%2$d, %3$d]</string>
+    <string name="item_desc_dumb_click_on_position">Clic sur %1$d, %2$d</string>
+    <string name="item_desc_dumb_pause">"Pause l'exécution"</string>
+    <string name="item_desc_dumb_pause_details">Pendant %1$s</string>
+    <string name="item_desc_dumb_repeat_count">Répéter %1$d fois</string>
+    <string name="item_desc_dumb_repeat_infinite">"Répéter à l'infini"</string>
+    <string name="item_desc_dumb_scenario">"L'expérience commune des auto-clickers.
+Placez simplement des clic et des swipe sur l'écran."</string>
+    <string name="item_desc_dumb_scenario_max_duration">Arrêter après %1$s</string>
+    <string name="item_desc_dumb_scenario_max_duration_infinite">Pas de durée maximum</string>
+    <string name="item_desc_dumb_scenario_repeat_count">Répéter %1$d fois</string>
+    <string name="item_desc_dumb_scenario_repeat_infinite">"Répéter à l'infini"</string>
+    <string name="item_desc_dumb_swipe">"Swiper d'une position à une autre"</string>
+    <string name="item_desc_dumb_swipe_details">Pendant %1$s de [%2$d, %3$d] à [%4$d, %5$d]</string>
+    <string name="item_desc_dumb_swipe_positions">Swipe de %1$d, %2$d à %3$d, %4$d</string>
+    <string name="item_desc_smart_scenario">"Utilise la détéction d'image pour créer des scénarios complexes."</string>
+    <string name="item_desc_smart_scenario_pro_mode">"Nécessite de regarder une publicité ou d'acheter le mode pro"</string>
+    <string name="item_desc_tutorial_1">Apprenez à créer votre premier événement afin de cliquer sur une cible immobile</string>
+    <string name="item_desc_tutorial_2">Modifiez votre événement pour cliquer sur une cible en mouvement aléatoire</string>
+    <string name="item_desc_tutorial_3">Créez et combinez plusieurs conditions pour votre événement</string>
+    <string name="item_desc_tutorial_4">"Vérifiez qu'un élément n'est pas affiché avant d'exécuter une action"</string>
+    <string name="item_desc_tutorial_5">Apprenez à combiner plusieurs événements pour automatiser des tâches complexes</string>
+    <string name="item_error_action_invalid_generic">Cette action est invalide</string>
+    <string name="item_event_desc_disabled_children">Désactivé</string>
+    <string name="item_event_desc_enabled_children">Activé</string>
+    <string name="item_image_condition_desc_complete_threshold">Différence: %1$d%%</string>
+    <string name="item_image_condition_desc_threshold">%1$d%%</string>
+    <string name="item_image_condition_not_visible">Non visible</string>
+    <string name="item_image_condition_visible">Visible</string>
+    <string name="item_intent_desc">Intéragir avec une autre application</string>
+    <string name="item_intent_details">Envoyer %1$s</string>
+    <string name="item_intent_details_component_name">Envoyer %1$s à %2$s</string>
+    <string name="item_intent_details_start_activity">Lancer %1$s</string>
+    <string name="item_intent_title">Intent</string>
+    <string name="item_notification_desc">Envoyer une notification</string>
+    <string name="item_notification_details_counter">Envoyer la valeur de %1$s</string>
+    <string name="item_notification_details_text">Envoyer \"%1$s\"</string>
+    <string name="item_notification_title">Notification</string>
+    <string name="item_pause_desc">Faire une pause pendant la détection</string>
+    <string name="item_pause_details">Pendant %1$s</string>
+    <string name="item_pause_title">Pause</string>
+    <string name="item_scenario_filter_by_favorite">Favoris</string>
+    <string name="item_scenario_filter_by_name">Nom</string>
+    <string name="item_scenario_filter_by_recent">Récent</string>
+    <string name="item_set_text_desc">Écrire un texte dans la vue actuellement sélectionnée</string>
+    <string name="item_set_text_details_text">%1$s</string>
+    <string name="item_set_text_details_text_empty">Clear text</string>
+    <string name="item_set_text_title">Écrire du texte</string>
+    <string name="item_swipe_desc">"Swiper d'une position à une autre"</string>
+    <string name="item_swipe_details">Pendant %1$s</string>
+    <string name="item_swipe_title">Swipe</string>
+    <string name="item_system_action_desc">Utilisez une action du système Android (retour, accueil ou applications récentes).</string>
+    <string name="item_system_action_details_text">%1$s</string>
+    <string name="item_system_action_title">Action système</string>
+    <string name="item_timer_reached_desc">"Remplie après un délai défini depuis l'activation de ce déclencheur"</string>
+    <string name="item_timer_reached_details">"%1$s après l'activation de l'évènement"</string>
+    <string name="item_timer_reached_title">Timer atteint</string>
+    <string name="item_title_backup_create_select_file">"Choisir l'emplacement de sauvegarde"</string>
+    <string name="item_title_backup_import_select_file">Choisir le fichier de sauvegarde</string>
+    <string name="item_title_debug_generate_report">Générer un rapport</string>
+    <string name="item_title_dumb_action_copy">Copie</string>
+    <string name="item_title_dumb_click">Clic</string>
+    <string name="item_title_dumb_pause">Pause</string>
+    <string name="item_title_dumb_scenario">Simple</string>
+    <string name="item_title_dumb_swipe">Swipe</string>
+    <string name="item_title_no_dumb_actions">Aucune action</string>
+    <string name="item_title_report_avg_image_processing_duration">"Temps moyen d'analyse"</string>
+    <string name="item_title_report_detection_count">Conditions détectés</string>
+    <string name="item_title_report_image_processed">Images analysées</string>
+    <string name="item_title_report_total_duration">Durée totale</string>
+    <string name="item_title_report_total_event_trigger_count">Évènements activés</string>
+    <string name="item_title_smart_scenario">Intelligente</string>
+    <string name="item_title_try_element">Testez votre %1$s</string>
+    <string name="item_title_tutorial_1">Appuyez sur une cible immobile</string>
+    <string name="item_title_tutorial_2">Appuyez sur une cible mobile</string>
+    <string name="item_title_tutorial_3">Combinez plusieurs conditions</string>
+    <string name="item_title_tutorial_4">Conditions négatives</string>
+    <string name="item_title_tutorial_5">Scénario avec plusieurs événements</string>
+    <string name="item_toggle_event_desc">"Changer l'état d'activation d'un évènement"</string>
+    <string name="item_toggle_event_details_disable_all">Tout désactiver</string>
+    <string name="item_toggle_event_details_enable_all">Tout activer</string>
+    <string name="item_toggle_event_details_error">Évènement cible non trouvé</string>
+    <string name="item_toggle_event_details_invert_all">Tout inverser</string>
+    <string name="item_toggle_event_details_manual">Changer %1$d évènements</string>
+    <string name="item_toggle_event_title">"État d'évènement"</string>
+    <string name="item_view_role_description">Tabulation</string>
+    <string name="list_header_copy_action_all">Actions de tous les évènements</string>
+    <string name="list_header_copy_action_this">Actions de cet évènement</string>
+    <string name="list_header_copy_conditions_all">Conditions de tous les évènements</string>
+    <string name="list_header_copy_conditions_this">Condition de cet évènement</string>
+    <string name="list_header_copy_dumb_action_all">Actions de tous les scénarios</string>
+    <string name="list_header_copy_dumb_action_this">Actions de ce scénario</string>
+    <string name="list_header_copy_event_all">Évènements de tous les scenarios</string>
+    <string name="list_header_copy_event_this">Évènements de ce scenario</string>
+    <string name="list_header_image_events">"Évènements d'écran"</string>
+    <string name="list_header_trigger_events">Évènements déclencheurs</string>
+    <string name="material_clock_toggle_content_description">Sélectionner le format AM ou PM</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="menu_item_title_actions">Actions</string>
+    <string name="menu_item_title_advanced">Avancé</string>
+    <string name="menu_item_title_cancel">Annuler</string>
+    <string name="menu_item_title_conditions">Conditions</string>
+    <string name="menu_item_title_dumb_actions">Actions</string>
+    <string name="menu_item_title_dumb_config">Config</string>
+    <string name="menu_item_title_export">Exporter</string>
+    <string name="menu_item_title_image_events">Écran</string>
+    <string name="menu_item_title_import">Importer</string>
+    <string name="menu_item_title_more">Plus</string>
+    <string name="menu_item_title_search">Rechercher</string>
+    <string name="menu_item_title_select_all">Tout sélectionner</string>
+    <string name="menu_item_title_settings">Settings</string>
+    <string name="menu_item_title_simple">Simple</string>
+    <string name="menu_item_title_trigger_events">Déclencheurs</string>
+    <string name="message_accessibility_issues">"Il semble que l'autorisation du Service d'accessibilité ait été supprimée à plusieurs reprises. Si vous ne l'avez pas modifiée vous-même, cela signifie que votre appareil l'a supprimée.
+
+ Certains fabricants d'appareils Android ne respectent pas le comportement standard concernant les applications d'arrière-plan et, selon la marque de votre appareil, il se peut que vous deviez effectuer une configuration supplémentaire.
+
+ Veuillez consulter le site Web suivant pour en savoir plus sur ce problème et sur la manière d'améliorer la stabilité des autorisations."</string>
+    <string name="message_backup_create_completed">Sauvegarde effectuée</string>
+    <string name="message_backup_create_error">Une erreur est survenue et la sauvegarde a été annulée</string>
+    <string name="message_backup_create_progress">Sauvegarde: %1$d/%2$d</string>
+    <string name="message_backup_error_no_zip_app">Aucune application trouvée pour sauvegarder/charger un fichier zip.</string>
+    <string name="message_backup_import_compatibility">"Certains scénarios ont été généré par un téléphone avec un écran différent, ce qui peut causer des problèmes avec la détection et les coordonées des actions.
+
+Pour régler le problème, vous devez refaire les screenshots de vos conditions et mettre à jour les coordonées de vos actions."</string>
+    <string name="message_backup_import_completed">Import effectué: %1$d scénarios importés</string>
+    <string name="message_backup_import_completed_with_error">"Import effectué, des erreurs ont survenues:
+%1$d scénarios importés
+%2$d erreurs"</string>
+    <string name="message_backup_import_error">"Une erreur est survenue et l'import a été annulée"</string>
+    <string name="message_backup_import_progress">Import de la sauvegarde: %1$d</string>
+    <string name="message_backup_import_verification">Vérification des données</string>
+    <string name="message_condition_migration_count">"%1$d Conditions d'image à migrer."</string>
+    <string name="message_condition_migration_desc">"Le format des images Klick'r a changé et votre scénario doit être mis à jour. Cela peut prendre quelques minutes selon le nombre de conditions à migrer."</string>
+    <string name="message_condition_migration_error">"Certaines conditions n'ont pas pu être migrées. Veuillez vérifier vos scénarios."</string>
+    <string name="message_condition_migration_success">"Toutes les conditions d'image ont été migrées."</string>
+    <string name="message_delete_scenario">Le scénario %1$s va être supprimé. Êtes vous sûr ?</string>
+    <string name="message_dont_show_again">Ne plus afficher ce message</string>
+    <string name="message_dumb_brief_empty_action_list">"Vous avez besoin d'au moins une action pour exécuter un scenario"</string>
+    <string name="message_empty_action_list_desc">Une action est un interraction (clic, swipe…) avec votre téléphone qui est exécutée lorsque les conditions que vous avez créés sont remplies.</string>
+    <string name="message_empty_action_list_title">Aucune action !</string>
+    <string name="message_empty_copy">Rien à copier</string>
+    <string name="message_empty_counter_name_list_desc">Les compteur sont créés avec une Action Modifier Compteur ou une condition Compteur atteint</string>
+    <string name="message_empty_counter_name_list_title">Pas de compteurs définis</string>
+    <string name="message_empty_dumb_action_list">Aucune action créé !</string>
+    <string name="message_empty_image_events_scenario_list">No image events</string>
+    <string name="message_empty_scenario_list">Créez votre premier scénario et commencez à automatiser des tâches dès maintenant</string>
+    <string name="message_empty_screen_condition_list_desc">"Une condition d'écran est une partie d'une capture d'écran qui va être recherchée dans chaque image affichées sur l'écran du téléphone."</string>
+    <string name="message_empty_screen_condition_list_title">"Aucune condition d'écran !"</string>
+    <string name="message_empty_screen_event_desc">"Un événement d'écran contient un ensemble d'actions exécutées lorsqu'une condition spécifique est détectée à l'écran.
+Vous avez besoin d'au moins un événement d'écran ou de déclenchement dans votre scénario pour l'exécuter."</string>
+    <string name="message_empty_screen_event_title">"Aucun évènement d'écran !"</string>
+    <string name="message_empty_secondary_dumb_action_list">"Vous avez besoin d'au moins une action pour lancer le scenario"</string>
+    <string name="message_empty_trigger_condition_list_desc">Une condition est un critère personnalisé pour lancer une action.</string>
+    <string name="message_empty_trigger_condition_list_title">Aucune condition !</string>
+    <string name="message_empty_trigger_event_list_desc">"Un événement déclencheur contient un ensemble d'actions exécutées lorsqu'un ensemble de conditions personnalisées sont remplies.
+Vous avez besoin d'au moins un événement d'écran ou de déclenchement dans votre scénario pour l'exécuter."</string>
+    <string name="message_empty_trigger_event_list_title">Aucun événement déclencheurs !</string>
+    <string name="message_error_screen_capture_permission_dialog_not_found">"Votre appareil ne donne pas la possibilité à Klick'r de pouvoir enregistrer votre écran. L'application ne pourra pas fonctionner dessus."</string>
+    <string name="message_high_score">Meilleur score : %1$d</string>
+    <string name="message_notification_config">"Le comportement des notifications dépend du système d'exploitation de votre appareil. Vous pouvez configurer le traitement des notifications dans les paramètres de votre appareil."</string>
+    <string name="message_permission_desc_accessibility">"La permission de service d'accessibilité permet à Klick'r d'éxecuter des gestes sur votre écran. Cette permission est requise afin d'éxecuter les clics et les swipes que vous allez créer dans vos scénarios d'automatisation.
+
+Aucune donnée n'est collectée par Klick'r.
+
+ Pour accorder la permission de service d'accessibilité, cliquez sur le boutton ci dessous."</string>
+    <string name="message_permission_desc_notification">"Optionnel: Affiche une notification pendant que l'application est lancée afin de facilement revenir à l'écran de sélection des scénarios."</string>
+    <string name="message_permission_desc_overlay">"La permission de superposition est requise afin de pouvoir afficher l'interface de Klick'r par dessus les applications que vous voulez automatiser, vous permettant de configurer vos scenarios sans stopper ces autres applications."</string>
+    <string name="message_permission_mandatory_denied">"Cette permission est obligatoire pour Klick'r. L'application ne pourra pas fonctionner sans elle."</string>
+    <string name="message_score">Joueur : %1$d</string>
+    <string name="message_set_text_focus">"Pour écrire le texte à l'endroit souhaité, vous devez d'abord sélectionner le champ de texte en cliquant dessus. Veuillez noter que, selon l'application, vous devrez peut-être attendre un peu après avoir cliqué, sinon le texte sera écrit trop tôt. Cela peut également ne pas fonctionner avec les applications qui ne prennent pas en charge l'écriture de texte standard, alors testez toujours votre action au préalable !"</string>
+    <string name="message_time_left">Temps restant : %1$d</string>
+    <string name="message_tutorial_1_game_instructions">Cliquez sur le bouton bleu le plus rapidement possible</string>
+    <string name="message_tutorial_1_step_1">"Bienvenue dans votre premier tutoriel !
+
+Ici, vous allez essayer de battre le meilleur score d'un jeu avec l'aide de Klick'r.
+
+D'abord, lancez le jeu et essayez de gagner par vous-même."</string>
+    <string name="message_tutorial_1_step_10">"Votre image de condition est maintenant enregistrée !
+
+Il existe plusieurs ajustements possibles, mais les paramètres par défaut conviennent à notre cas d'utilisation de base. Comme notre cible ne bouge pas, elle ne sera détectée qu'à la position de capture, ce qui est plus rapide que la détection sur tout l'écran.
+
+Cliquez sur le bouton Enregistrer pour l'enregistrer et revenir à la liste des Conditions."</string>
+    <string name="message_tutorial_1_step_11">"Fermez la liste des Conditions pour revenir à la configuration de l'Événement"</string>
+    <string name="message_tutorial_1_step_12">"Avec cette condition, le scénario sait quand déclencher les actions.
+
+ Vous devez maintenant définir les actions à déclencher, donc pour ce jeu, un clic sur le personnage bleu.
+
+Cliquez sur le champ Actions pour afficher la liste des actions."</string>
+    <string name="message_tutorial_1_step_13">"Une action est quelque chose qui est exécuté une fois que les conditions de son événement sont remplies.
+
+Il peut s'agir d'un clic, d'un balayage, d'une pause, d'une intention (une interaction avec une autre application) ou d'un changement dans l'exécution du scénario, et plusieurs actions peuvent être définies pour le même événement.
+
+Cliquez sur le bouton de création d'action pour créer votre première action."</string>
+    <string name="message_tutorial_1_step_14">"Tout d'abord, nous devons choisir un type pour votre action.
+
+Pour ce jeu, nous devons simplement cliquer sur le personnage bleu, alors choisissez Clic pour créer une nouvelle action de clic."</string>
+    <string name="message_tutorial_1_step_15">"Une action de clic est définie par une position et une durée d'appui.
+
+Comme nous voulons cliquer le plus rapidement possible, nous pouvons laisser la durée d'appui par défaut à 1 ms, ce qui est la valeur la plus basse possible. Nous devons donc uniquement définir une position.
+
+Cliquez sur le bouton de sélection de position pour choisir la position du clic."</string>
+    <string name="message_tutorial_1_step_16">"Vous devez sélectionner la position exacte à cliquer, alors vous devez relancer le jeu pour afficher le personnage bleu, puis sélectionner sa position.
+
+Une fois que la position est correcte, cliquez sur le bouton Valider pour la sauvegarder."</string>
+    <string name="message_tutorial_1_step_17">"Le clic est maintenant correctement configuré !
+
+Cliquez sur le bouton Enregistrer pour le sauvegarder et revenir à la liste des Actions."</string>
+    <string name="message_tutorial_1_step_18">"Fermez la liste des Actions pour revenir à la configuration de l'Événement"</string>
+    <string name="message_tutorial_1_step_19">"Votre événement a désormais une condition et une action, ce qui signifie qu'il sait quoi exécuter et quand l'exécuter.
+
+Cliquez sur le bouton Enregistrer pour le sauvegarder et revenir à la boîte de dialogue du scénario."</string>
+    <string name="message_tutorial_1_step_20">"La seule exigence pour un scénario est d'avoir au moins un événement.
+ Comme notre événement couvre déjà la manière de gagner le jeu, nous n'avons besoin de rien d'autre.
+
+Cliquez sur le bouton Enregistrer pour sauvegarder le scénario dans la base de données et fermer les boîtes de dialogue de configuration."</string>
+    <string name="message_tutorial_1_step_21">"Comme vous pouvez le voir, le bouton de lecture est maintenant disponible, ce qui signifie que votre scénario est valide et peut être utilisé pour la détection.
+
+Cliquez dessus pour lancer la détection."</string>
+    <string name="message_tutorial_1_step_22">"Il est en cours de lecture, mais rien ne se passe ?
+
+C'est normal, il cliquera seulement lorsque le personnage bleu sera visible, vous vous souvenez ? Tout en maintenant le scénario en cours d'exécution, appuyez sur le bouton de démarrage du jeu et regardez Klick'r le battre pour vous !"</string>
+    <string name="message_tutorial_1_step_23">"Félicitations !
+
+Vous connaissez maintenant les bases de Klick'r, mais tous les cas d'utilisation ne seront pas aussi simples que ce jeu.
+Jetez un coup d'œil au tutoriel suivant pour apprendre à suivre une cible en mouvement."</string>
+    <string name="message_tutorial_1_step_3">"Difficile, n'est-ce pas ?
+Utilisons maintenant Klick'r pour y parvenir !
+
+ Cliquez sur l'icône de configuration du scénario pour commencer à éditer votre nouveau scénario."</string>
+    <string name="message_tutorial_1_step_4">"Un scénario est la structure de base de l'automatisation Klick'r.
+
+ Il contient les paramètres de détection généraux et une liste d'événements décrivant ce qui sera exécuté lors de l'exécution de votre scénario.
+
+Cliquez sur le bouton de création d'événement pour créer votre premier événement."</string>
+    <string name="message_tutorial_1_step_5">"Un événement décrit les actions (clic, balayage…) à exécuter lorsque certaines conditions sont remplies.
+
+Vous devez créer au moins une condition et une action pour créer un événement valide et l'utiliser dans votre scénario.
+
+Cliquez sur le champ Conditions pour afficher la liste des conditions."</string>
+    <string name="message_tutorial_1_step_6">"Une condition est une partie d'une capture d'écran qui sera comparée à chaque image de l'écran de votre appareil.
+
+Pour battre le jeu, nous voulons cliquer sur le personnage bleu lorsqu'il est visible, donc nous avons besoin d'une condition qui sera remplie lorsque le personnage apparaît à l'écran de votre appareil.
+
+Cliquez sur le bouton de création de condition pour créer votre première condition."</string>
+    <string name="message_tutorial_1_step_7">"La première étape de la création d'une condition consiste à prendre une capture d'écran.
+
+Comme nous voulons cliquer lorsque le personnage bleu est visible, la capture d'écran doit le contenir. Relancez le jeu pour l'afficher, puis prenez la capture d'écran."</string>
+    <string name="message_tutorial_1_step_8">"Une fois la capture d'écran prise, vous pouvez la recadrer pour obtenir uniquement la partie intéressante pour la détection."</string>
+    <string name="message_tutorial_1_step_9">"Pour ce jeu, la partie intéressante est le personnage bleu, alors recadrez votre capture d'écran pour l'obtenir uniquement.
+
+Vous pouvez zoomer sur la capture d'écran en écartant les doigts pour obtenir une meilleure précision dans le choix du recadrage."</string>
+    <string name="message_tutorial_1_step_secondary_16">Vous ne pouvez pas interagir avec le jeu tant que le sélecteur de position est visible, mais vous pouvez utiliser ce bouton pour le montrer et le masquer, vous permettant de supprimer cette restriction à volonté.</string>
+    <string name="message_tutorial_1_step_secondary_7">"Utilisez le bouton de capture dans le menu flottant pour prendre la capture d'écran."</string>
+    <string name="message_tutorial_1_step_secondary_8">"Si votre capture d'écran ne contient pas le personnage bleu, vous pouvez appuyer sur ce bouton pour en prendre une nouvelle."</string>
+    <string name="message_tutorial_1_step_secondary_9">"Assurez-vous que le personnage est bien visible dans le sélecteur. Essayez également de le recadrer le plus près possible de lui pour faciliter la détection de l'image."</string>
+    <string name="message_tutorial_2_game_instructions">Cliquez sur le bouton bleu en mouvement le plus rapidement possible</string>
+    <string name="message_tutorial_2_step_1">"Commençons par compliquer un peu le jeu. Maintenant, la cible se déplace aléatoirement.
+
+D'abord, lancez le jeu et vérifiez si vous pouvez gagner par vous-même."</string>
+    <string name="message_tutorial_2_step_10">"Votre image de Condition est désormais mise à jour !
+
+À ce stade, le scénario exécutera désormais un clic chaque fois que le personnage bleu sera visible n'importe où à l'écran, mais ce clic sera à la même position, celle sélectionnée lors du tutoriel précédent. Nous devons donc mettre à jour notre Action.
+
+Cliquez sur le champ Actions pour afficher la liste des Actions."</string>
+    <string name="message_tutorial_2_step_11">"Nous voulons toujours exécuter un simple clic, mais cette fois, nous voulons cliquer sur la Condition et non sur une position fixe.
+
+Comme il s'agit toujours d'un clic, nous n'avons toujours besoin que d'une seule Action, alors modifions votre clic précédent.
+
+Cliquez sur votre Action pour commencer à la modifier."</string>
+    <string name="message_tutorial_2_step_12">"Actuellement, l'Action de clic Clic sur est réglée sur Position sélectionnée, ce qui signifie que vous devez définir manuellement la position à cliquer. L'autre choix est Condition, ce qui signifie que l'Action cliquera sur les coordonnées de la Condition détectée.
+
+C'est exactement ce dont nous avons besoin pour battre le jeu. Chaque fois que le personnage bleu sera détecté, cette Action cliquera dessus.
+
+Sélectionnez-le pour l'utiliser dans votre Action."</string>
+    <string name="message_tutorial_2_step_13">"Cliquez sur l'option de sélection de la Condition pour choisir quelle Condition détectée cliquer. Nous devons le spécifier car nous pouvons avoir plusieures Conditions dans notre Événement."</string>
+    <string name="message_tutorial_2_step_14">"Pour notre cas d'utilisation, c'est facile, nous n'avons qu'une seule condition, le personnage bleu.
+
+ Sélectionnez-la pour cliquer sur cette Condition lorsqu'elle est détectée sur votre écran."</string>
+    <string name="message_tutorial_2_step_15">"C'est tout !
+Votre Action de clic est désormais correctement configurée pour battre le jeu.
+
+Cliquez sur le bouton Enregistrer pour l'enregistrer et revenir à la liste des Actions."</string>
+    <string name="message_tutorial_2_step_16">"Fermez la liste des Actions pour revenir à la configuration de l'Événement"</string>
+    <string name="message_tutorial_2_step_17">"Vous avez mis à jour la Condition et votre Action, il n'y a rien d'autre à faire.
+
+Cliquez sur le bouton Enregistrer pour l'enregistrer et revenir à la boîte de dialogue du Scénario."</string>
+    <string name="message_tutorial_2_step_18">Un dernier enregistrement pour enregistrer vos nouvelles modifications dans la base de données et fermer les boîtes de dialogue de configuration.</string>
+    <string name="message_tutorial_2_step_19">"Votre scénario est maintenant configuré pour battre ce nouveau tutoriel.
+
+Lancez la détection avec le bouton de lecture du menu flottant, puis lancez le jeu."</string>
+    <string name="message_tutorial_2_step_20">"Félicitations !
+
+Vous savez maintenant comment suivre une cible unique, qu'elle soit immobile ou en mouvement, mais il y a encore beaucoup à apprendre !"</string>
+    <string name="message_tutorial_2_step_3">"Encore une fois, il semble impossible de gagner manuellement, alors utilisons Smart AutoClicker.
+
+Votre scénario du tutoriel précédent a été conservé et chargé pour ce tutoriel, mais nous devrons changer quelques paramètres pour gagner ce nouveau jeu.
+
+Cliquez sur l'icône de configuration du scénario pour commencer à mettre à jour votre nouveau scénario."</string>
+    <string name="message_tutorial_2_step_4">"Nous voulons toujours cliquer sur le personnage bleu, ce qui signifie que nous avons toujours besoin d'une seule Condition et d'une seule Action, donc un seul Événement.
+
+Comme le cas d'utilisation est assez similaire au jeu précédent, nous allons conserver notre Événement et simplement le mettre à jour.
+
+Cliquez sur l'Événement que vous avez précédemment créé pour le modifier."</string>
+    <string name="message_tutorial_2_step_5">"Dans un premier temps, nous allons mettre à jour la Condition qui détecte le personnage bleu.
+
+ Cliquez sur le champ Conditions pour afficher la liste des Conditions."</string>
+    <string name="message_tutorial_2_step_6">"Comme dans le tutoriel précédent, nous devons détecter le personnage bleu, mais maintenant, il se déplace.
+
+Notre Condition précédente détecte déjà le personnage bleu, mais seulement à une position. Vous n'avez donc pas besoin de prendre une nouvelle capture d'écran, car votre Condition précédente la contient déjà, nous devons simplement changer ses paramètres.
+
+Cliquez sur votre Condition pour commencer à la modifier."</string>
+    <string name="message_tutorial_2_step_7">"Actuellement, le type de détection de la Condition est réglé sur Exact, ce qui signifie qu'il ne sera vérifié qu'à sa position de capture.
+
+Pour gagner ce jeu, nous devons vérifier la même Condition, mais sur l'ensemble de l'écran.
+
+Sélectionnez le type Tout l'écran pour détecter le personnage bleu n'importe où à l'écran."</string>
+    <string name="message_tutorial_2_step_8">"C'est tout !
+Nous n'avions besoin que de changer le type de détection pour que votre Condition corresponde à nos besoins.
+
+Cliquez sur le bouton Enregistrer pour l'enregistrer et revenir à la liste des Conditions."</string>
+    <string name="message_tutorial_2_step_9">"Fermez la liste des Conditions pour revenir à la configuration de l'Événement"</string>
+    <string name="message_tutorial_2_step_secondary_7">"La détection sur l'ensemble de l'écran prend plus de temps que la position exacte, gardez cela à l'esprit lorsque le timing de l'exécution de votre scénario est important."</string>
+    <string name="message_tutorial_3_game_instructions">Cliquez sur le bouton bleu uniquement lorsque le bouton rouge est visible</string>
+    <string name="message_tutorial_3_step_1">"Changeons à nouveau les règles du jeu. La cible bleue a cessé de bouger, mais elle ne doit être cliquée que lorsque la cible rouge est visible.
+
+Tout d'abord, lancez le jeu et vérifiez si vous pouvez gagner par vous-même."</string>
+    <string name="message_tutorial_3_step_10">"Votre image de Condition est maintenant enregistrée ! Comme la cible rouge ne bouge pas, nous pouvons conserver la configuration par défaut.
+Cliquez sur le bouton Enregistrer pour l'enregistrer et revenir à la liste des Conditions."</string>
+    <string name="message_tutorial_3_step_11">"Fermez la liste des Conditions pour revenir à la configuration de l'Événement"</string>
+    <string name="message_tutorial_3_step_12">"Nous avons maintenant deux Conditions, une pour chaque cible, et les Actions ne seront exécutées que si les deux sont détectées.
+
+Cliquez sur le champ Actions pour afficher la liste des Actions pour notre Événement."</string>
+    <string name="message_tutorial_3_step_13">"L'action est déjà configurée pour cliquer sur le personnage bleu, et elle ne sera exécutée que lorsque les personnages bleu et rouge sont visibles ensemble.
+
+C'est exactement le comportement dont nous avons besoin pour battre le jeu, donc pas besoin de modifier notre Action de clic.
+
+Fermez la liste des Actions pour revenir à la configuration de l'Événement."</string>
+    <string name="message_tutorial_3_step_14">Cliquez sur le bouton Enregistrer pour revenir à la configuration du Scénario.</string>
+    <string name="message_tutorial_3_step_15">"Toutes les modifications doivent être enregistrées dans votre scénario pour être enregistrées.
+cliquez sur le bouton Enregistrer pour enregistrer vos modifications."</string>
+    <string name="message_tutorial_3_step_16">"Nous sommes prêts à gagner ce jeu !
+
+Cliquez sur le bouton de démarrage pour lancer la détection, puis démarrez le jeu."</string>
+    <string name="message_tutorial_3_step_17">"Félicitations !
+
+Vous savez désormais comment combiner plusieurs conditions pour un Événement, mais il y a encore beaucoup à apprendre !"</string>
+    <string name="message_tutorial_3_step_3">"Encore une fois, il semble impossible de gagner manuellement, alors utilisons Smart AutoClicker.
+
+Votre scénario du tutoriel précédent a été conservé et chargé pour ce tutoriel, mais nous devrons changer quelques paramètres pour gagner ce nouveau jeu.
+
+Cliquez sur l'icône de configuration du scénario pour commencer à mettre à jour votre nouveau scénario."</string>
+    <string name="message_tutorial_3_step_4">"Nous voulons toujours cliquer sur la cible bleue, mais seulement lorsque la cible rouge est visible.
+ Nous devons donc ajouter une condition pour cette cible rouge dans notre Événement.
+
+Cliquez sur l'Événement que vous avez précédemment créé pour le modifier."</string>
+    <string name="message_tutorial_3_step_5">"Nous allons combiner plusieurs conditions, nous devons donc vérifier l'opérateur de Condition pour cet événement.
+
+L'opérateur de Condition indique comment plusieurs conditions seront interprétées ensemble.
+ 'Un' signifie qu'une seule des conditions de cet Événement doit être remplie pour exécuter les actions.
+
+ 'Toutes' signifie que toutes les conditions de cet Événement doivent être remplies pour exécuter les actions.
+
+ Comme nous voulons détecter si deux choses sont affichées ensemble, nous utiliserons 'Toutes'."</string>
+    <string name="message_tutorial_3_step_6">"Maintenant, nous devons mettre à jour nos Conditions.
+
+Cliquez sur le champ Conditions pour afficher la liste des Conditions."</string>
+    <string name="message_tutorial_3_step_7">"La Condition précédente de détection de la cible bleue est toujours correcte, mais nous avons besoin d'une nouvelle pour la cible rouge.
+
+Cliquez sur le bouton de création de Condition pour créer une nouvelle Condition pour celle-ci."</string>
+    <string name="message_tutorial_3_step_8">"Tout comme pour la cible bleue, commencez le jeu afin de montrer la cible rouge. Une fois qu'elle est visible, prenez une capture d'écran !"</string>
+    <string name="message_tutorial_3_step_9">"Votre capture d'écran contient-elle la cible rouge ? Vous pouvez la recadrer pour obtenir uniquement la partie intéressante pour la détection, la cible rouge."</string>
+    <string name="message_tutorial_3_step_secondary_8">"Utilisez le bouton de capture dans le menu flottant pour prendre la capture d'écran."</string>
+    <string name="message_tutorial_3_step_secondary_9">"Si votre capture d'écran ne contient pas la cible rouge, vous pouvez appuyer sur ce bouton pour en prendre une nouvelle."</string>
+    <string name="message_tutorial_volume_down_stop">"Si votre scénario clique trop vite, cela peut bloquer l'écran tactile.
+
+Si cela arrive, vous pouvez appuyer sur le boutton physique \"Volume Moins\" de votre appareil afin d'arrêter le scenario."</string>
+    <string name="mtrl_badge_numberless_content_description">Nouvelle notification</string>
+    <string name="mtrl_checkbox_state_description_checked">Cochée</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Partiellement cochée</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Non cochée</string>
+    <string name="mtrl_chip_close_icon_content_description">Supprimer %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Plus de %1$d nouvelles notifications</string>
+    <string name="mtrl_picker_a11y_next_month">Passer au mois suivant</string>
+    <string name="mtrl_picker_a11y_prev_month">Passer au mois précédent</string>
+    <string name="mtrl_picker_cancel">Annuler</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">"Accéder à l'année en cours : %1$d"</string>
+    <string name="mtrl_picker_navigate_to_year_description">"Accéder à l'année %1$d"</string>
+    <string name="mtrl_picker_save">Enregistrer</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Passer au mode de saisie Agenda</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Appuyer pour passer à la vue \"Agenda\"</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Passer au mode de saisie Texte</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Appuyer pour passer à la vue \"Année\"</string>
+    <string name="notification_button_config">Config</string>
+    <string name="notification_button_hide">Masquer</string>
+    <string name="notification_button_pause">Pause</string>
+    <string name="notification_button_pause_and_show">Pause et afficher</string>
+    <string name="notification_button_play">Démarrer</string>
+    <string name="notification_button_play_and_hide">Démarrer et cacher</string>
+    <string name="notification_button_show">Afficher</string>
+    <string name="notification_button_stop">Stop</string>
+    <string name="notification_button_toggle_menu">Afficher/Cacher</string>
+    <string name="notification_message">Appuyez pour changer le scénario</string>
+    <string name="notification_scenario_channel_default_name">Normale</string>
+    <string name="notification_scenario_channel_group_name">"Klick'r scenarios"</string>
+    <string name="notification_scenario_channel_high_name">Haute</string>
+    <string name="notification_scenario_channel_low_name">Basse</string>
+    <string name="notification_title">Scénario : %1$s</string>
+    <string name="overlay_instructions_gesture_record">Enregistrement du geste…</string>
+    <string name="overlay_title_results">Résultats</string>
+    <string name="overlay_title_threshold">Seuil</string>
+    <string name="password_toggle_content_description">Afficher le mot de passe</string>
+    <string name="search_view_hint_action_copy">"Chercher par nom d'action"</string>
+    <string name="search_view_hint_condition_copy">Chercher par nom de condition</string>
+    <string name="search_view_hint_dumb_action_copy">Rechercher par nom</string>
+    <string name="search_view_hint_event_copy">"Chercher par nom d'évènement"</string>
+    <string name="section_title_report_condition_detected_count">Détecté</string>
+    <string name="section_title_report_condition_processing_count">Analysé</string>
+    <string name="section_title_report_confidence_title">Taux de confiance</string>
+    <string name="section_title_report_event_processing_count">Analysé</string>
+    <string name="section_title_report_event_trigger_count">Activé</string>
+    <string name="section_title_report_timing_avg">Moy</string>
+    <string name="section_title_report_timing_max">Max</string>
+    <string name="section_title_report_timing_min">Min</string>
+    <string name="section_title_report_timing_title">"Temps d'analyse"</string>
+    <string name="section_title_scenario_type_title">Type de scénario</string>
+    <string name="side_sheet_accessibility_pane_title">Feuille latérale</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tile_label_start_scenario">"Démarrer Klick'r"</string>
+    <string name="tile_label_stop_scenario">"Stop Klick'r"</string>
+    <string name="tile_subtext_unavailable">Aucun Scenario défini</string>
+    <string name="toast_configure_single_click">Appuyez sur la position à cliquer</string>
+    <string name="toast_configure_swipe_from">Appuyez sur la position de départ</string>
+    <string name="toast_configure_swipe_to">"Appuyez sur la position d'arrivée"</string>
+    <string name="toast_denied_foreground_permission">"L'utilisateur a refusé l'autorisation de service au premier plan"</string>
+    <string name="toast_denied_screen_sharing_permission">"L'utilisateur a refusé l'autorisation de partage d'écran"</string>
+    <string name="warning_dialog_message_close_without_saving">Vous avez des modifications non sauvées, voulez-vous vous en débarrasser ?</string>
+    <string name="warning_dialog_message_condition_delete_associated_action">"Cette condition est référencée par une ou plusieures actions. La supprimer supprimera aussi les actions associées.
+Êtes vous sûr ?"</string>
+    <string name="warning_dialog_message_event_delete_associated_action">"Cet évènement est référencé par une ou plusieures actions. Le supprimer supprimera aussi les actions associées.
+Êtes vous sûr ?"</string>
+    <string name="warning_dialog_message_toggle_action_from_another_scenario">"Cet évènement possède une ou plusieures actions de changement d'état référenceant un évènement d'un autre scénario.
+Vous devrez mettre à jour ces actions avant de pouvoir sauvegarder le scénario."</string>
+</resources>

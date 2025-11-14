@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/bottom_sheet_min_height" style="@style/AppTheme.Dialog.BackgroundLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" layout="@layout/include_dialog_navigation_top_bar" />
+    <FrameLayout android:id="@id/dialog_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/android_bottom_navigation_height" android:layout_weight="1.0" />
+</LinearLayout>

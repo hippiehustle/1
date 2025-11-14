@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/menu_background" style="@style/AppTheme.Overlay.FloatingMenu.CardView">
+        <LinearLayout android:id="@id/menu_items" style="@style/AppTheme.Overlay.FloatingMenu.LayoutButtons">
+            <ImageButton android:id="@id/btn_confirm" android:src="@drawable/ic_confirm" android:contentDescription="@string/content_desc_confirm" style="@style/AppTheme.Overlay.FloatingMenu.Buttons" />
+            <ImageButton android:id="@id/btn_cancel" android:src="@drawable/ic_cancel" android:contentDescription="@string/content_desc_go_back" style="@style/AppTheme.Overlay.FloatingMenu.Buttons" />
+            <ImageButton android:id="@id/btn_hide_overlay" android:src="@drawable/ic_visible_on" android:contentDescription="@string/content_desc_go_back" style="@style/AppTheme.Overlay.FloatingMenu.Buttons" />
+            <ImageButton android:id="@id/btn_move" android:src="@drawable/ic_move" android:contentDescription="@string/content_desc_move_menu" style="@style/AppTheme.Overlay.FloatingMenu.Buttons" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

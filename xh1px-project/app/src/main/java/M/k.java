@@ -1,0 +1,21 @@
+package M;
+
+import android.os.Process;
+
+/* loaded from: classes.dex */
+public final class k extends Thread {
+
+    /* renamed from: d, reason: collision with root package name */
+    public final int f3294d;
+
+    public k(Runnable runnable) {
+        super(runnable, "fonts-androidx");
+        this.f3294d = 10;
+    }
+
+    @Override // java.lang.Thread, java.lang.Runnable
+    public final void run() {
+        Process.setThreadPriority(this.f3294d);
+        super.run();
+    }
+}

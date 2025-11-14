@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/notification_text_color" android:gravity="center" android:id="@id/text_scenario_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_vertical_extra_large" android:maxLines="1" style="@style/AppTheme.TextAppearance.BodyLarge" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/notification_buttons_size" android:baselineAligned="false">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center" android:id="@id/button_play_pause" android:layout_width="@dimen/notification_buttons_size" android:layout_height="@dimen/notification_buttons_size" android:src="@drawable/ic_notification_play_arrow" style="@style/AppTheme.Notification.Button.Filled" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center" android:id="@id/button_show_hide" android:layout_width="@dimen/notification_buttons_size" android:layout_height="@dimen/notification_buttons_size" android:src="@drawable/ic_notification_visible_on" style="@style/AppTheme.Notification.Button.Outlined" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center" android:id="@id/button_config" android:layout_width="@dimen/notification_buttons_size" android:layout_height="@dimen/notification_buttons_size" android:src="@drawable/ic_notification_settings_filled" style="@style/AppTheme.Notification.Button.Outlined" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center" android:id="@id/button_exit" android:layout_width="@dimen/notification_buttons_size" android:layout_height="@dimen/notification_buttons_size" android:src="@drawable/ic_notification_cancel" style="@style/AppTheme.Notification.Button.Outlined" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

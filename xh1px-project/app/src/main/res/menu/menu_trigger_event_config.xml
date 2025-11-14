@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_settings" android:enabled="true" android:id="@id/page_event" android:title="@string/generic_config" />
+    <item android:icon="@drawable/ic_trigger_condition" android:enabled="true" android:id="@id/page_conditions" android:title="@string/menu_item_title_conditions" />
+    <item android:icon="@drawable/ic_click" android:enabled="true" android:id="@id/page_actions" android:title="@string/menu_item_title_actions" />
+</menu>

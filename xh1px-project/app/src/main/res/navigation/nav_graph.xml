@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/fragment_tutorial_list"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="fragment_two" android:name="com.buzbuz.smartautoclicker.feature.tutorial.ui.list.TutorialListFragment" android:id="@id/fragment_tutorial_list">
+        <action android:id="@id/tutorial_list_to_game" app:destination="@id/fragment_game" />
+    </fragment>
+    <fragment android:label="fragment_two" android:name="com.buzbuz.smartautoclicker.feature.tutorial.ui.game.TutorialGameFragment" android:id="@id/fragment_game">
+        <argument android:name="gameIndex" android:defaultValue="0" app:argType="integer" />
+    </fragment>
+</navigation>

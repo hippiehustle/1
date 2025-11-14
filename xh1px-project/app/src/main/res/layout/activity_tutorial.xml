@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" style="@style/AppTheme.Widget.AppBarLayout">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/topAppBar" app:layout_scrollEffect="compress" app:layout_scrollFlags="enterAlways" app:title="@string/activity_tutorial_name" style="@style/AppTheme.Widget.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.fragment.app.FragmentContainerView android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/nav_host_fragment" android:tag="TutorialGame" android:layout_width="fill_parent" android:layout_height="fill_parent" app:defaultNavHost="true" app:navGraph="@navigation/nav_graph" />
+</LinearLayout>

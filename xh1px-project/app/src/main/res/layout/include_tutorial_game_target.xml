@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/tutorial_game_target_size" android:layout_height="@dimen/tutorial_game_target_size" app:srcCompat="@drawable/ic_game_target_primary"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/menu_background" android:animateLayoutChanges="true" style="@style/AppTheme.Overlay.FloatingMenu.CardView">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <LinearLayout android:id="@id/menu_items" android:animateLayoutChanges="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/layout_result" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/AppTheme.Overlay.FloatingMenu.LayoutButtons">
+                <ImageButton android:id="@id/btn_back" android:src="@drawable/ic_back" android:contentDescription="@string/content_desc_go_back" style="@style/AppTheme.Overlay.FloatingMenu.Buttons" />
+                <ImageButton android:id="@id/btn_hide_overlay" android:src="@drawable/ic_visible_on" android:contentDescription="@string/content_desc_go_back" style="@style/AppTheme.Overlay.FloatingMenu.Buttons" />
+                <ImageButton android:id="@id/btn_move" android:src="@drawable/ic_move" android:contentDescription="@string/content_desc_move_menu" style="@style/AppTheme.Overlay.FloatingMenu.Buttons" />
+            </LinearLayout>
+            <FrameLayout android:textColor="@color/textTitle" android:gravity="center" android:id="@id/layout_result" android:layout_width="@dimen/overlay_debug_text_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_horizontal_mini" android:layout_marginRight="@dimen/margin_horizontal_mini" android:maxLines="1" android:layout_marginHorizontal="@dimen/margin_horizontal_mini" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/menu_items" app:layout_constraintTop_toTopOf="parent" style="@style/AppTheme.TextAppearance.Overlay.Big">
+                <TextView android:textColor="@color/textTitle" android:gravity="center" android:id="@id/text_result" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_horizontal_mini" android:layout_marginRight="@dimen/margin_horizontal_mini" android:maxLines="1" android:layout_marginHorizontal="@dimen/margin_horizontal_mini" style="@style/AppTheme.TextAppearance.Overlay.Big" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

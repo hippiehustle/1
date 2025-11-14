@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:translationZ="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/button_copy" android:visibility="gone" android:contentDescription="@string/content_desc_copy_button" app:srcCompat="@drawable/ic_copy" style="@style/AppTheme.Widget.FabSecondary" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/button_new" android:layout_marginBottom="@dimen/dialog_create_copy_buttons_bottom_margin" android:contentDescription="@string/content_desc_add_button" app:srcCompat="@drawable/ic_add" style="@style/AppTheme.Widget.Fab" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_horizontal_default" android:layout_marginTop="@dimen/margin_vertical_large" android:layout_marginRight="@dimen/margin_horizontal_default" android:layout_marginBottom="@dimen/margin_vertical_extra_large" android:layout_marginHorizontal="@dimen/margin_horizontal_default">
+        <include android:id="@id/field_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_horizontal_small" layout="@layout/include_field_text_input" />
+        <include android:id="@id/intent_sending_type_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_horizontal_small" layout="@layout/include_input_field_dropdown" />
+        <include android:id="@id/edit_action_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_horizontal_small" layout="@layout/include_field_text_input_with_checkbox" />
+        <include android:id="@id/edit_flags_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_horizontal_small" layout="@layout/include_field_text_input_with_checkbox" />
+        <include android:id="@id/edit_component_name_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_vertical_large" layout="@layout/include_field_text_input_with_checkbox" />
+        <com.google.android.material.card.MaterialCardView android:id="@id/extras_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_vertical_large" style="@style/AppTheme.Widget.Card">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_horizontal_default" android:layout_marginTop="@dimen/margin_vertical_large" android:layout_marginRight="@dimen/margin_horizontal_default" android:layout_marginBottom="@dimen/margin_vertical_large" android:layout_marginHorizontal="@dimen/margin_horizontal_default" android:layout_marginVertical="@dimen/margin_vertical_large">
+                <com.google.android.material.textview.MaterialTextView android:id="@id/extras_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/field_intent_extra_title" style="@style/AppTheme.TextAppearance.CardTitle" />
+                <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/extras_list" android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

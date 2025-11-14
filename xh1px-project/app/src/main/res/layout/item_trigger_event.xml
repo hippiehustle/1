@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_item_event" android:layout_width="fill_parent" android:layout_height="@dimen/item_height_big"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_list_item_text_big" android:textStyle="bold" android:id="@id/text_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_horizontal_default" android:layout_marginTop="@dimen/margin_vertical_small" android:layout_marginRight="@dimen/margin_horizontal_default" android:singleLine="true" android:layout_marginHorizontal="@dimen/margin_horizontal_default" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_enabled" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/layout_actions" app:layout_constraintStart_toStartOf="@id/text_name" app:layout_constraintTop_toBottomOf="@id/text_name">
+        <ImageView android:id="@id/icon_enabled" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_confirm" android:contentDescription="@string/content_desc_event_state" />
+        <TextView android:gravity="center_vertical" android:id="@id/text_enabled" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_actions" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/layout_enabled" app:layout_constraintEnd_toStartOf="@id/layout_conditions" app:layout_constraintStart_toEndOf="@id/layout_enabled" app:layout_constraintTop_toTopOf="@id/layout_enabled">
+        <ImageView android:id="@id/image_action" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_click" android:contentDescription="@string/content_desc_conditions_count" />
+        <TextView android:gravity="center_vertical" android:id="@id/text_actions_count" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_conditions" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/margin_horizontal_default" app:layout_constraintBottom_toBottomOf="@id/layout_actions" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/layout_actions" app:layout_constraintTop_toTopOf="@id/layout_actions">
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_trigger_condition" android:contentDescription="@string/content_desc_actions_count" />
+        <TextView android:gravity="center_vertical" android:id="@id/text_conditions_count" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
