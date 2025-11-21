@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" app:liftOnScroll="true" app:liftOnScrollTargetViewId="@id/list" style="@style/AppTheme.Widget.AppBarLayout">
-        <com.google.android.material.appbar.MaterialToolbar android:id="@id/topAppBar" app:layout_scrollEffect="compress" app:layout_scrollFlags="scroll|enterAlways|snap" app:title="@string/activity_settings_title" style="@style/AppTheme.Widget.Toolbar" />
-    </com.google.android.material.appbar.AppBarLayout>
-    <androidx.fragment.app.FragmentContainerView android:name="com.buzbuz.smartautoclicker.settings.SettingsFragment" android:id="@id/fragment" android:tag="Settings" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
-</androidx.coordinatorlayout.widget.CoordinatorLayout>

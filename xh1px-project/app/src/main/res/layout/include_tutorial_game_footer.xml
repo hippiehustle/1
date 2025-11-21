@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView android:id="@id/card_time_left" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.Widget.Card"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.material.textview.MaterialTextView android:gravity="center_horizontal" android:id="@id/text_time_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_horizontal_default" android:layout_marginTop="@dimen/margin_vertical_extra_large" android:layout_marginRight="@dimen/margin_horizontal_default" android:layout_marginBottom="@dimen/margin_vertical_extra_large" android:text="@string/message_time_left" android:layout_marginHorizontal="@dimen/margin_horizontal_default" android:layout_marginVertical="@dimen/margin_vertical_extra_large" style="@style/AppTheme.TextAppearance.BodyLarge" />
-</com.google.android.material.card.MaterialCardView>

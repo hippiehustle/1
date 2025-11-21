@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.material.textfield.TextInputLayout android:id="@id/text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.Widget.InputDropdown">
-        <com.google.android.material.textfield.MaterialAutoCompleteTextView android:id="@id/text_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:inputType="none" />
-    </com.google.android.material.textfield.TextInputLayout>
-    <View android:id="@id/disabled_touch_handler" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</FrameLayout>

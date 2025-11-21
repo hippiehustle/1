@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/ic_condition" android:enabled="true" android:id="@id/page_image_events" android:title="@string/menu_item_title_image_events" />
-    <item android:icon="@drawable/ic_trigger_event" android:enabled="true" android:id="@id/page_trigger_events" android:title="@string/menu_item_title_trigger_events" />
-    <item android:icon="@drawable/ic_settings" android:enabled="true" android:id="@id/page_config" android:title="@string/generic_config" />
-    <item android:icon="@drawable/ic_more" android:enabled="true" android:id="@id/page_more" android:title="@string/menu_item_title_more" />
-</menu>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<objectAnimator android:interpolator="@android:interpolator/accelerate_quint" android:duration="@integer/duration_morph_play_pause_ms" android:valueFrom="@string/path_pause" android:valueTo="@string/path_play" android:valueType="pathType" android:propertyName="pathData"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

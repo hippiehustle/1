@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="default_click_press_duration">1</integer>
-    <integer name="default_condition_threshold">4</integer>
-    <integer name="default_pause_duration">50</integer>
-    <integer name="default_swipe_duration">500</integer>
-</resources>

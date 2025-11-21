@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.material.button.MaterialButton android:id="@id/button" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.Widget.TextButton" />
-    <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="@style/AppTheme.Widget.CircularProgressIndicator.Button.Colored" />
-</FrameLayout>

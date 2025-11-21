@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="?colorSurfaceContainerLowest" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/bottom_sheet_min_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/AppTheme.Dialog.BackgroundLayout">
-        <include android:id="@id/layout_top_bar" layout="@layout/include_dialog_search_top_bar" />
-        <include android:id="@id/layout_loadable_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/margin_vertical_default" layout="@layout/include_loadable_list" />
-    </LinearLayout>
-</androidx.coordinatorlayout.widget.CoordinatorLayout>

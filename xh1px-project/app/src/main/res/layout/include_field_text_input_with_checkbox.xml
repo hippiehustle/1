@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.textfield.TextInputLayout android:id="@id/edit_text_field_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" app:endIconMode="clear_text" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/button_checkbox" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/AppTheme.Widget.InputText">
-        <com.google.android.material.textfield.TextInputEditText android:id="@id/text_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" />
-    </com.google.android.material.textfield.TextInputLayout>
-    <com.google.android.material.button.MaterialButton android:id="@id/button_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_vertical_default" android:checkable="true" android:layout_marginStart="@dimen/margin_horizontal_default" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/edit_text_field_layout" app:layout_constraintTop_toTopOf="parent" style="@style/AppTheme.Widget.CheckableButton" />
-</androidx.constraintlayout.widget.ConstraintLayout>

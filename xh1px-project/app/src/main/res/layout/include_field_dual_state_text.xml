@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/title_and_description" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/separator" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/include_title_and_description" />
-    <com.google.android.material.divider.MaterialDivider android:id="@id/separator" android:layout_width="1.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/dual_state_button" app:layout_constraintTop_toTopOf="parent" style="@style/AppTheme.Widget.Divider.Vertical" />
-    <include android:id="@id/dual_state_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_vertical_default" android:layout_marginBottom="@dimen/margin_vertical_default" android:layout_marginVertical="@dimen/margin_vertical_default" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/include_button_text_dual_state" />
-</androidx.constraintlayout.widget.ConstraintLayout>

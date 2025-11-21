@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.buzbuz.smartautoclicker.core.ui.views.itembrief.ItemBriefView android:id="@id/position_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_instructions" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <View android:id="@id/background_list" android:background="@drawable/background_fade_top" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/text_instructions" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-        <com.google.android.material.textview.MaterialTextView android:textColor="@color/md_theme_light_onPrimary" android:gravity="center" android:id="@id/text_instructions" android:paddingBottom="@dimen/margin_horizontal_extra_large" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_horizontal_extra_large" android:layout_marginTop="@dimen/margin_vertical_small" android:layout_marginRight="@dimen/margin_horizontal_extra_large" android:layout_marginHorizontal="@dimen/margin_horizontal_extra_large" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/AppTheme.TextAppearance.EmptyText" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</FrameLayout>
